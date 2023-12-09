@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5%;
+    max-width: 100%;
+}
+
+header h1 {
+    background-color: bisque;
+}
+
+.country-details {
+    background-color: bisque;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.country-details h3 {
+    text-align: center;
+}
+
+.map {
+    width: 70%;
+}
+
+path:hover {
+    fill: bisque;
+    stroke: beige;
+}
